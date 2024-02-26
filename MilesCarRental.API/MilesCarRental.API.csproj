@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MilesCarRental.Abstractions\MilesCarRental.Abstractions.csproj" />
+    <ProjectReference Include="..\MilesCarRental.Builders\MilesCarRental.Builders.csproj" />
+    <ProjectReference Include="..\MilesCarRental.Cars.UseCases\MilesCarRental.Cars.UseCases.csproj" />
+    <ProjectReference Include="..\MilesCarRental.Entities\MilesCarRental.Entities.csproj" />
+    <ProjectReference Include="..\MilesCarRental.Interactors.Abstractions\MilesCarRental.Interactors.Abstractions.csproj" />
+    <ProjectReference Include="..\MilesCarRental.Presenters\MilesCarRental.Presenters.csproj" />
+    <ProjectReference Include="..\MilesCarRental.Repository.EFCore\MilesCarRental.Repository.EFCore.csproj" />
+  </ItemGroup>
+
+</Project>
